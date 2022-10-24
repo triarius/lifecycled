@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/ec2metadata"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/buildkite/lifecycled"
+	"github.com/triarius/lifecycled"
 
 	cloudwatchlogs "github.com/kdar/logrus-cloudwatchlogs"
 	"github.com/sirupsen/logrus"

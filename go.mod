@@ -1,4 +1,4 @@
-module github.com/buildkite/lifecycled
+module github.com/triarius/lifecycled
 
 go 1.14
 

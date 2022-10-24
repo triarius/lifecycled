@@ -9,12 +9,12 @@ When a termination notice is received, lifecycled runs a user-provided script (c
 
 ## Installing with Systemd
 
-Either install with `go get -u github.com/buildkite/lifecycled` or download a [binary release for Linux or Windows](https://github.com/buildkite/lifecycled/releases). Install into `/usr/bin/lifecycled`.
+Either install with `go get -u github.com/triarius/lifecycled` or download a [binary release for Linux or Windows](https://github.com/triarius/lifecycled/releases). Install into `/usr/bin/lifecycled`.
 
 ```bash
 # Install the binary
 curl -Lf -o /usr/bin/lifecycled \
-	https://github.com/buildkite/lifecycled/releases/download/${VERSION}/lifecycled-linux-amd64
+	https://github.com/triarius/lifecycled/releases/download/${VERSION}/lifecycled-linux-amd64
 chmod +x /usr/bin/lifecycled
 
 # Install the systemd service

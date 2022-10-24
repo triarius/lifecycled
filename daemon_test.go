@@ -16,8 +16,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/buildkite/lifecycled"
-	"github.com/buildkite/lifecycled/mocks"
+	"github.com/triarius/lifecycled"
+	"github.com/triarius/lifecycled/mocks"
 	"github.com/golang/mock/gomock"
 	logrus "github.com/sirupsen/logrus/hooks/test"
 )

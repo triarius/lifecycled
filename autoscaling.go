@@ -13,7 +13,7 @@ import (
 
 // AutoscalingClient for testing purposes
 //
-//go:generate mockgen -destination=mocks/mock_autoscaling_client.go -package=mocks github.com/buildkite/lifecycled AutoscalingClient
+//go:generate mockgen -destination=mocks/mock_autoscaling_client.go -package=mocks github.com/triarius/lifecycled AutoscalingClient
 type AutoscalingClient autoscalingiface.AutoScalingAPI
 
 // Envelope ...
